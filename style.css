@@ -1,7 +1,25 @@
+html {
+  font-size: 15px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Open Sans', sans-serif; /* this should be the rest of the output you got from Google fonts */
+}
+
+p {
+  color: green;
+  font-size: 16px;    
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h1 {
+  color: navy;
+  font-size: 30px;
+  text-align: center;
+}
+
 /*CSS Element Selector*/
 header {
     color: white;
-    background-color: green;
+    background-color: lavender;
 }
 
 /*CSS ID Selector*/
