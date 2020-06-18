@@ -1,0 +1,35 @@
+/*CSS Element Selector*/
+header {
+    color: white;
+    background-color: green;
+}
+
+/*CSS ID Selector*/
+#section1 {
+     border-radius: 25px;
+     border: 2px solid yellow;
+     padding: 20px;
+     margin: 20px;
+}
+#section2 {
+     border-radius: 25px;
+     border: 2px solid blue;
+     padding: 20px;
+     margin: 20px;
+}
+#section3 {
+     border-radius: 25px;
+     border: 2px solid orange;
+     padding: 20px;
+     margin: 20px;
+}
+#section4 {
+     border-radius: 25px;
+     border: 2px solid pink;
+     padding: 20px;
+     margin: 20px;
+}
+/*CSS class Selector*/
+.center {
+    text-align: center;
+}
