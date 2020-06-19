@@ -28,44 +28,27 @@ header {
 }
 
 /*CSS ID Selector*/
-#section1 {
-     background-color: orange;
-     border-radius: 25px;
-     border: 2px solid blue;
-     padding: 20px;
-     margin: 20px;
-}
-#section2 {
-     background-color: yellow;
-     border-radius: 25px;
-     border: 2px solid blue;
-     padding: 20px;
-     margin: 20px;
-}
-#section3 {
-     background-color: green;
-     border-radius: 25px;
-     border: 2px solid blue;
-     padding: 20px;
-     margin: 20px;
-}
-#section4 {
-     background-color: plum;
-     border-radius: 25px;
-     border: 2px solid blue;
-     padding: 20px;
-     margin: 20px;
-}
-
-#section5 {
-     background-color: pink;
+#section1, #section2, #section3, #section4, #section5 {
+     background-color: white;
      border-radius: 25px;
      border: 2px solid red;
      padding: 20px;
      margin: 20px;
 }
 
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
 .button {
+  border-radius: 25%;
+  margin: 25%;
+  padding: 25%;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -75,6 +58,22 @@ header {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+/*CSS Responsive*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 45%;
+}
+@media screen and (max-width:900px) {
+  .column {
+    width: 95%;
+  }
 }
 
 /*CSS class Selector*/

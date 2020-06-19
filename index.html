@@ -3,8 +3,9 @@
 
 <head>
     <title>thinhx2</title>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -24,24 +25,51 @@
         </h3>
     </nav>
 
+<audio controls autoplay loop><source src="hanni.mp3" type="audio/mpeg"></audio>
+
     <style>
+    .button {background-color: red;}
     .button1 {background-color: #4CAF50;}
     .button2 {background-color: #008CBA;}
     .button3 {background-color: coral;}
     .button4 {background-color: purple;}
+    .button5 {background-color: yellow;}
     </style>
 
-    <button class="button button1">Green</button>
-    <button class="button button2">Blue</button>
-    <button class="button button3">Coral</button>
-    <button class="button button4">Purle</button>
+    <button class="button button" name="button" value="OK" type="button" onclick="hello()">Hello</button>  
+    <script>  
+    function hello(){  
+    alert("hello html button");  
+    }  
+    </script>
+   
+    <button class="button button1">
+        <a href="https://youtube.com" class="button5">Youtube</a>
+    </button>
 
-    <section id="section1">
+    <button class="button button2">
+        <a href="https://github.com" class="button5">Github</a>
+    </button>
+
+    <button class="button button3">
+        <a href="https://vsfan.vn" class="button5">Vsfan</a>
+    </button>
+
+    <button class="button button4">
+        <a href="https://tinhte.vn" class="button5">Tinhte</a>
+        </button>
+
+    <button class="button button5">
+        <a href="https://google.com" class="button5">Google</a>
+    </button>
+
+<div class="row">
+    <section id="section1" class="column">
         <h2 class="center">Lần đầu làm web</h2>
         <p class="center">Hơi tệ, mọi người thông cảm</p>
     </section>
 
-    <section id="section2">
+    <section id="section2" class="column">
     <h2 class="center">Các đường link hữu ích</h2>
        <ol>
           <li>
@@ -58,7 +86,7 @@
             <a href="https://github.com/thinhx2">Github</a>
     </section>
 
-    <section id="section3">
+    <section id="section3" class="column">
         <h2 class="center">Các thông tin cá nhân</h2>
         <ul>
             <li>Tên: Nguyễn Thịnh</li>
@@ -70,15 +98,16 @@
                <img src="dat.jpg" alt="dat" width="100" height="100">
             </li>
     </section>
-    <section id="section4">
+    <section id="section4" class="column">
         <h2 class="center">Ảnh đẹp nè</h2>
-        <img src="pic.png" alt="pic" width="1200" height="300">
+        <img src="pic.png" alt="pic" width="570" height="300">
     </section>
 
-    <section id="section5">
+    <section id="section5" class="column">
         <h1 class="center">Kang</h1>
         <p class="center"><a href="./QDK/index.html">Kang</a></p>
     </section>
+</div>
 
     <footer>
         <h3 class="center">&copy; 2020 Bản quyền thuộc về thinhx2</h3>
