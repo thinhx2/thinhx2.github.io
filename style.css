@@ -56,6 +56,15 @@ header {
      padding: 20px;
      margin: 20px;
 }
+
+#section5 {
+     background-color: pink;
+     border-radius: 25px;
+     border: 2px solid red;
+     padding: 20px;
+     margin: 20px;
+}
+
 /*CSS class Selector*/
 .center {
     text-align: center;
